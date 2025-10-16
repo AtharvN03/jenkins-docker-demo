@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // IMPORTANT: Change this to your Docker Hub username and a chosen app name
-        DOCKER_IMAGE = 'AtharvN03/my-sample-app' 
+        DOCKER_IMAGE = 'atharvn03/my-sample-app' 
         // This is the ID for the credentials you created in Jenkins
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
